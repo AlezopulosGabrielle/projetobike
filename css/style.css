@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background:linear-gradient(#79e4a6, #1bc296);
+    height: 100vh;
+    width: 100vw;
+}
+.cabecalho-total{
+    display: flex;
+    flex-direction: row;
+    background-color: #342974ec;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.menu-nav{
+    display: flex;
+    height: 100px;
+    gap: 50px;
+}
+.item-lista{
+    display: flex;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #FFF2E7;
+    align-items: center;
+    font-weight: 400;
+    font-size: 12px;
+    padding-left: 55px;
+    cursor: pointer;
+}
+.search-box{
+    position: absolute;
+    height: 25px;
+    top: 5%;
+    left: 70%;
+    background: #09162d;
+    border-radius: 40px;
+    padding-bottom: 8px;
+    padding-top: 9px;
+    display: flex;
+    align-items: center;
+}
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    padding-right: 21px;
+    padding-left: 41px;
+    color: #f0f5fb;
+    font-size: 16px;
+    line-height: 40px;
+    align-items: center;
+}
+.search-btn{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #0a162d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pai-conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    padding-left: 95px;
+    padding-right: 95px;
+    background-image:url(https://static.vecteezy.com/ti/vetor-gratis/p1/1433853-layout-azul-escuro-moderno-desfocado-vetor.jpg);
+    background-repeat: no-repeat;
+}
+.conteudo-titulo{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+    color: #FFF2E7;
+}
+.conteudo-subtitulo{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    color: #ECD6C4;
+}
+.ultimo-txt{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ECD6C4;
+}
+.conteudo-botao{
+    background-color: #ECD6C4;
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color:#2F2325;
+    cursor: pointer;
+}
+.imagem{
+    align-items: center;
+    height: 455px;
+    padding-left: 180px;
+}
+.pai{
+    display:flex;
+    flex-direction: row;
+    height: 200px;
+}
+.filha1{
+    background-color: #4e4679ec;
+    height:200px ;
+    width: 25%;
+}
+.filha2{
+    background-color: #e7d90eec;
+    height:200px ;
+    width: 25%;
+}
+.filha3{
+    background-color: #4e4679ec;
+    height:200px ;
+    width: 25%;
+}
+.filha4{
+    background-color: #e7d90eec;
+    height:200px ;
+    width: 25%;
+}
+.rodape{
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #ECD6C4 ;
+    height: 90px;
+    padding-left: 55px;
+    padding-top: 35px;
+    background-color:  #342974ec;
+    text-align: center;
+}
+
+
